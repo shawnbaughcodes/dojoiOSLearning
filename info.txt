@@ -1,0 +1,3 @@
+
+This repository is all about iOS throught the Coding Dojo Learning Platform as well as iOS11 through Udemy.
+
