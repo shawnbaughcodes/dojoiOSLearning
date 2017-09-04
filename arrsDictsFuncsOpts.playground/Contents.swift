@@ -125,6 +125,16 @@ pet = "Skippy"
 
 var xFactor: String?
 
+var present: String? = "Apple Watch"
+if let unwrappedPresent = present {
+	print("OMG thank you for thr \(unwrappedPresent)")
+}
+
+print("\(present)")
+present = nil
+print("\(present)")
+
+
 
 
 
