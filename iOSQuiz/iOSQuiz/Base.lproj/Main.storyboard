@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,21 +22,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT1-PQ-AuM">
-                                <rect key="frame" x="19" y="28" width="337" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.26929857103343413" green="0.535835492996659" blue="0.96621346473693848" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Why did the programmer quit their job?">
-                                    <color key="titleColor" red="0.94706286466233658" green="0.96621346473693848" blue="0.94791783896642678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAR-Eo-mLZ">
+                                <rect key="frame" x="16" y="83" width="51" height="30"/>
+                                <state key="normal" title="Answer"/>
+                                <connections>
+                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8h-ag-zgW"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqa-xp-QCU">
+                                <rect key="frame" x="315" y="83" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hjk-gM-2uz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEB-nb-1gf">
+                                <rect key="frame" x="16" y="348.5" width="343" height="81.5"/>
+                                <string key="text">Create the user interface. As we create the UI, we will get a better understanding of our application. Then we breathe life into our application.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the first step in iOS Development?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p76-aK-a7i">
+                                <rect key="frame" x="16" y="20" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HEB-nb-1gf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Bo-Xe-0Af"/>
+                            <constraint firstItem="GAR-Eo-mLZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5o3-Kn-b0H"/>
+                            <constraint firstItem="p76-aK-a7i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="A4s-NX-N3i"/>
+                            <constraint firstItem="p76-aK-a7i" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="B2r-qC-ZC6"/>
+                            <constraint firstItem="wqa-xp-QCU" firstAttribute="top" secondItem="p76-aK-a7i" secondAttribute="bottom" constant="42.5" id="NVc-7n-gdL"/>
+                            <constraint firstItem="p76-aK-a7i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pum-Ei-Ajd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="p76-aK-a7i" secondAttribute="trailing" constant="10.5" id="SY6-o3-01U"/>
+                            <constraint firstItem="GAR-Eo-mLZ" firstAttribute="top" secondItem="p76-aK-a7i" secondAttribute="bottom" constant="42.5" id="Vwn-vs-I2j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wqa-xp-QCU" secondAttribute="trailing" constant="12" id="aub-7E-OFS"/>
+                            <constraint firstItem="HEB-nb-1gf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dXx-br-4m4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HEB-nb-1gf" secondAttribute="bottom" constant="237" id="h1O-EW-Dxh"/>
+                            <constraint firstItem="p76-aK-a7i" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iEG-BG-cvi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="HEB-nb-1gf" id="6nE-s9-YLh"/>
+                        <outlet property="questionLabel" destination="p76-aK-a7i" id="11x-go-3FA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+            <point key="canvasLocation" x="-79.710144927536234" y="138.58695652173915"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.26622281746708187" green="0.74071767173617553" blue="0.96621346473693848" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
