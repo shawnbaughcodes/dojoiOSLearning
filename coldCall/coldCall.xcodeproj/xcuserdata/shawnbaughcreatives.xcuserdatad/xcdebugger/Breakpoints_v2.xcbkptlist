@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "coldCall/ViewController.swift"
+            timestampString = "526337441.030696"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coldCall.ViewController.customers.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "coldCall"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawnbaughcreatives/Documents/atom_builds/dojoiOSLearning/coldCall/coldCall/ViewController.swift"
+                  timestampString = "526337444.475478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coldCall.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; coldCall.ViewController"
+                  moduleName = "coldCall"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawnbaughcreatives/Documents/atom_builds/dojoiOSLearning/coldCall/coldCall/ViewController.swift"
+                  timestampString = "526337444.479634"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "coldCall.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;coldCall.ViewController&gt;"
+                  moduleName = "coldCall"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shawnbaughcreatives/Documents/atom_builds/dojoiOSLearning/coldCall/coldCall/ViewController.swift"
+                  timestampString = "526337444.481928"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
