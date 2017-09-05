@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5917A41207A5560F77E50EAB89C3897307F2F1CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5917A41207A5560F77E50EAB89C3897307F2F1CA" : 9223372036854775807,
+    "3DB5E747E3090A170B07C81A9E919FB68CDF5BBA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1BE148E8-0D54-48AA-9A89-1C18C963633C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5917A41207A5560F77E50EAB89C3897307F2F1CA" : "dojoiOSLearning\/",
+    "3DB5E747E3090A170B07C81A9E919FB68CDF5BBA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSQuiz",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSQuiz\/iOSQuiz.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shawnbaughcodes\/baugh_creative.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DB5E747E3090A170B07C81A9E919FB68CDF5BBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shawnbaughcodes\/dojoiOSLearning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5917A41207A5560F77E50EAB89C3897307F2F1CA"
+    }
+  ]
+}
