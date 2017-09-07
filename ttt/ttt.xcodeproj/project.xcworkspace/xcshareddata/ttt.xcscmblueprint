@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5917A41207A5560F77E50EAB89C3897307F2F1CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5917A41207A5560F77E50EAB89C3897307F2F1CA" : 9223372036854775807,
+    "3DB5E747E3090A170B07C81A9E919FB68CDF5BBA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B768D5F1-B4A7-4B77-9D51-46B2B209395F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5917A41207A5560F77E50EAB89C3897307F2F1CA" : "dojoiOSLearning\/",
+    "3DB5E747E3090A170B07C81A9E919FB68CDF5BBA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ttt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ttt\/ttt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shawnbaughcodes\/baugh_creative.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DB5E747E3090A170B07C81A9E919FB68CDF5BBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shawnbaughcodes\/dojoiOSLearning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5917A41207A5560F77E50EAB89C3897307F2F1CA"
+    }
+  ]
+}
